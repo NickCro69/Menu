@@ -1,0 +1,16 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2em;
+    background: #fefefe;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    margin-top: 1.5em;
+    color: #555;
+}
+li {
+    margin-bottom: 8px;
+}

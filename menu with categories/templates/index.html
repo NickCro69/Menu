@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Café Menu</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Cafe Bar Marino</h1>
+    {% for category, items in menu.items() %}
+        <h2>{{ category }}</h2>
+        <ul>
+            {% for item in items %}
+            <li>
+                <strong>{{ item.Name }}</strong> - ({{ item.Price }}€)
+            </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>
